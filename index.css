@@ -40,9 +40,9 @@ main {
 }
 
 .dice-container {
-  display: grid;
-  grid-template: auto auto / repeat(5, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -51,8 +51,8 @@ button {
 }
 
 .dice-container button {
-  height: 35x;
-  width: 35px;
+  height: 40x;
+  width: 40px;
   position: 'relative';
   display: 'flex';
   justify-content: 'center';
